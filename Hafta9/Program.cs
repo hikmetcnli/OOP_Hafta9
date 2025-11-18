@@ -44,6 +44,9 @@ namespace Hafta9
                 }
             }
 
+
+
+
            // Hesapla h = new Hesapla();
            //Console.Write("Toplam = " +  h.Topla(1, 2, 3, 4, 5));
            //Console.Write("Çarpım = " +  h.Carpma(1, 2, 3, 4, 5));
