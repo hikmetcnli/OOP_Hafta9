@@ -30,5 +30,20 @@ namespace Matematik_Library
 
             return val;
         }
+
+        public bool IsNumber(ref object Val)
+        {
+            try
+            {
+                Convert.ToDouble(Val);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Val = 0;
+                return false;
+            }
+        }
+
     }
 }

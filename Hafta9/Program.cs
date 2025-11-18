@@ -20,12 +20,21 @@ namespace Hafta9
                 if (list.Count == 0)
                 {
                     Console.WriteLine("İlk Sayıyı Giriniz: ");
-                    list.Add(Convert.ToDouble(Console.ReadLine()));
+                    object Val = Console.ReadLine();
+                    if (h.IsNumber(ref Val))
+                    {
+                        list.Add(Convert.ToDouble(Val));
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hatalı ifade !");
+                    }
+                  
                 }
                 else
                 {
                     Console.WriteLine("Bir sayı giriniz veya İşlem Giriniz Toplama(t)/Çarpma(ç): ");
-                    var Value = Console.ReadLine();
+                    object Value = Console.ReadLine();
 
                     switch (Value)
                     {
@@ -38,7 +47,14 @@ namespace Hafta9
                             flag = false;
                             break;
                         default:
-                            list.Add(Convert.ToDouble(Value));
+                            if (h.IsNumber(ref Value))
+                            {
+                                list.Add(Convert.ToDouble(Value));
+                            }
+                            else
+                            {
+                                Console.WriteLine("Hatalı ifade !");
+                            }
                             break;
                     }
                 }
