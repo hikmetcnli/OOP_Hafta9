@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta9", "Hafta9\Hafta9.csproj", "{7A803CB4-AB69-4E1D-8E88-36D291ADFDC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik_Library", "Matematik_Library\Matematik_Library.csproj", "{CF63E107-DB58-40ED-904E-1D74CDB8F95E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A803CB4-AB69-4E1D-8E88-36D291ADFDC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A803CB4-AB69-4E1D-8E88-36D291ADFDC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A803CB4-AB69-4E1D-8E88-36D291ADFDC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A803CB4-AB69-4E1D-8E88-36D291ADFDC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF63E107-DB58-40ED-904E-1D74CDB8F95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF63E107-DB58-40ED-904E-1D74CDB8F95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF63E107-DB58-40ED-904E-1D74CDB8F95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF63E107-DB58-40ED-904E-1D74CDB8F95E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE3F46E7-1FFD-4BE1-A9C0-3538C88457D3}
+	EndGlobalSection
+EndGlobal
